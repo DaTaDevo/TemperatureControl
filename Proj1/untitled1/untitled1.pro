@@ -4,10 +4,12 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        database.cpp \
-        graphic.cpp \
-        main.cpp
+        control.cpp \
+        main.cpp \
+        model.cpp \
+        view.cpp
 
 HEADERS += \
-    database.h \
-    graphic.h
+    control.h \
+    model.h \
+    view.h
